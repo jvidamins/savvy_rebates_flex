@@ -13,7 +13,7 @@ const options = {
   sayOptions: { voice: 'Polly.Joanna-Neural' },
   holdMusicUrl: 'https://flex-call-center-assets-1360.twil.io/New%20Hold%20Music.mp3',
   messages: {
-    initialGreeting: 'Please wait while we direct your call to the next available representative.',
+    initialGreeting: 'Please wait while we direct your call to the next available agent.',
     repeatingPrompt:
       'To request a callback, or to leave a voicemail, press the star key at anytime... Otherwise, please continue to hold.',
     callbackOrVoicemailChoice:
@@ -24,7 +24,7 @@ const options = {
       'To request a callback to the same number you have called from, press 1. \
           To request a callback to a different number, press 2. \
           To continue holding, press any other key, or remain on the line.',
-    callbackSubmitted: 'Thank you. A callback has been requested. You will receive a call shortly. Goodbye.',
+    callbackSubmitted: 'Thank you. A callback has been requested. As soon as one of our agents becomes available, they will give you a call back. Thank you for calling Savvy Rebates and we look forward to speaking with you soon.',
     callbackForOtherNumber:
       'Please enter the phone number, starting with the country code. When you are finished, press the # sign.',
     callbackForOtherNumberConfirm1: 'You entered',
@@ -32,10 +32,10 @@ const options = {
     recordVoicemailPrompt:
       'Please leave a message at the tone. When you are finished recording, you may hang up, or press the star key.',
     voicemailNotCaptured: "Sorry. We weren't able to capture your message.",
-    voicemailRecorded: 'Your voicemail has been successfully recorded... Goodbye',
+    voicemailRecorded: 'Your voicemail has been successfully recorded and placed in our support cue. As soon as one of our agents becomes available, they will give you a call back. Thank you for calling Savvy Rebates and we look forward to speaking with you soon.',
     callbackAndVoicemailUnavailable:
-      'The option to request a callback or leave a voicemail is not available at this time. Please continue to hold.',
-    processingError: 'Sorry, we were unable to perform this operation. Please remain on the line.',
+      'We're sorry, the option to request a callback or leave a voicemail is not available at this time. Please continue to hold.',
+    processingError: 'Sorry, we were unable to perform this operation. Please remain on the line for one of our agents, or send us a text and we'll get back to you shortly.',
     invalidInput: 'You have entered an invalid selection. Please try again.',
   },
 };
