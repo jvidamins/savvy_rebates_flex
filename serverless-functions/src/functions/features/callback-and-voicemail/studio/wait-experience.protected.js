@@ -11,7 +11,7 @@ const CallbackOperations = require(Runtime.getFunctions()['features/callback-and
 const options = {
   retainPlaceInQueue: true,
   sayOptions: { voice: 'Polly.Joanna' },
-  holdMusicUrl: 'https://flex-call-center-assets-1360.twil.io/New%20Hold%20Music.mp3',
+  holdMusicUrl: 'http://flex-call-center-assets-1360.twil.io/New%20Hold%20Music.mp3',
   messages: {
     initialGreeting: 'Please wait while we direct your call to the next available agent.',
     repeatingPrompt:
