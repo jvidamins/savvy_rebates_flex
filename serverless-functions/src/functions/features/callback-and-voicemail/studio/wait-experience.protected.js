@@ -10,8 +10,8 @@ const CallbackOperations = require(Runtime.getFunctions()['features/callback-and
 
 const options = {
   retainPlaceInQueue: true,
-  sayOptions: { voice: 'Polly.Joanna' },
-  holdMusicUrl: 'http://com.twilio.music.soft-rock.s3.amazonaws.com/_ghost_-_promo_2_sample_pack.mp3',
+  sayOptions: { voice: 'Polly.Matthew-Neural' },
+  holdMusicUrl: 'https://flex-call-center-assets-1360.twil.io/New%20Hold%20Music.mp3',
   messages: {
     initialGreeting: 'Please wait while we direct your call to the next available agent.',
     repeatingPrompt:
@@ -34,8 +34,8 @@ const options = {
     voicemailNotCaptured: "Sorry. We weren't able to capture your message.",
     voicemailRecorded: 'Your voicemail has been successfully recorded and placed in our support cue. As soon as one of our agents becomes available, they will give you a call back. Thank you for calling Savvy Rebates and we look forward to speaking with you soon.',
     callbackAndVoicemailUnavailable:
-      'We're sorry, the option to request a callback or leave a voicemail is not available at this time. Please continue to hold.',
-    processingError: 'Sorry, we were unable to perform this operation. Please remain on the line for one of our agents, or send us a text and we'll get back to you shortly.',
+      "We're sorry, the option to request a callback or leave a voicemail is not available at this time. Please continue to hold.",
+    processingError: "Sorry, we were unable to perform this operation. Please remain on the line for one of our agents, or send us a text and we'll get back to you shortly.",
     invalidInput: 'You have entered an invalid selection. Please try again.',
   },
 };
